@@ -124,14 +124,17 @@ function gaugeWfreq(demographicInfo){
 		    mode: "gauge+number",
             gauge: {
                 bar: {color: "gray"},
-                axis: { range: [null, 12] },
+                axis: { range: [null, 9] },
                 steps: [
-                  { range: [0, 2], color: "#fafa6e" },
-                  { range: [2, 4], color: "c4ec74" },
-                  { range: [4, 6], color: "92dc7e" },
-                  { range: [6, 8], color: "64c987" },
-                  { range: [8, 10], color: "39b48e" },
-                  { range: [10, 12], color: "089f8f" },
+                  { range: [0, 1], color: "#fafa6e" },
+                  { range: [1, 2], color: "#c4ec74" },
+                  { range: [2, 3], color: "#92dc7e" },
+                  { range: [3, 4], color: "#64c987" },
+                  { range: [4, 5], color: "#39b48e" },
+                  { range: [5, 6], color: "#089f8f" },
+                  { range: [6, 7], color: "#08737f" },
+                  { range: [7, 8], color: "#075E72" },
+                  { range: [8, 9], color: "#2F4858" },
                 ],
             }
         }
